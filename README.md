@@ -41,6 +41,39 @@ The program retrieves stack and heap usage and also demonstrates the usage of De
  
  7. The serial console should display a similar output to below:
  ```
+This message is from debug function
+This message is from debug_if
+MemoryStats:
+        Bytes allocated currently: 80
+        Max bytes allocated at a given time: 80
+        Cumulative sum of bytes ever allocated: 80
+        Current number of bytes allocated for the heap: 186884
+        Current number of allocations: 2
+        Number of failed allocations: 0
+Cumulative Stack Info:
+        Maximum number of bytes used on the stack: 560
+        Current number of bytes allocated for the stack: 5376
+        Number of stacks stats accumulated in the structure: 3
+Thread Stack Info:
+        Thread: 0
+                Thread Id: 0x20001EE8
+                Thread Name: "main_thread"
+                Maximum number of bytes used on the stack: 384
+                Current number of bytes allocated for the stack: 4096
+                Number of stacks stats accumulated in the structure: 1
+        Thread: 1
+                Thread Id: 0x20000394
+                Thread Name: ""
+                Maximum number of bytes used on the stack: 64
+                Current number of bytes allocated for the stack: 512
+                Number of stacks stats accumulated in the structure: 1
+        Thread: 2
+                Thread Id: 0x200003DC
+                Thread Name: ""
+                Maximum number of bytes used on the stack: 112
+                Current number of bytes allocated for the stack: 768
+                Number of stacks stats accumulated in the structure: 1
+Done...
 
  ```
 
